@@ -6,10 +6,7 @@ _ZH_DATASETS = {
     "csl-daily",
     "csl_daily",
     "csl-news",
-    "csl_news",
-    "buu-sl",
-    "buu_sl",
-    "buu",
+    "csl_news"
 }
 
 
@@ -25,8 +22,6 @@ def infer_dataset_from_paths(
     if "p14t" in combined or "phonexi" in combined:
         return "p14t"
     if "csl-daily" in combined or "csl-news" in combined or "cslnews" in combined:
-        return "csl-daily"
-    if "buu" in combined:
         return "csl-daily"
     if "openasl" in combined or "open-asl" in combined:
         return "openasl"

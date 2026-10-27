@@ -97,12 +97,6 @@ Written to `--output_dir`:
 - `tmp_pres.txt` / `tmp_refs.txt` — predictions and references
 - `result_bleu.txt` — BLEU / ROUGE metrics
 
-## 📝 Notes
-
-- Inference uses the flex visual encoder; raw keypoints are loaded from `--keypoint_path`.
-- For CSL-Daily, `--data_version CSL_Daily` is required to read `pose_format/*.pkl`.
-- Batch size must stay modest (2–4) because sign sequences have variable length.
-
 ## 🙏 Acknowledgements
 
 Thanks to **CoSign** for the powerful sign encoder implementation:
@@ -126,7 +120,3 @@ Thanks to **CoSign** for the powerful sign encoder implementation:
   year={2026}
 }
 ```
-
-## 📄 License
-
-Apache 2.0.

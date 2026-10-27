@@ -7,7 +7,6 @@ set -euo pipefail
 export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0,1,2,3}
 
 MODEL_DIR=${MODEL_DIR:-./models/SignRAG-Qwen3-8B-CSL-Daily-PreinNews}
-# NON_LORA=${NON_LORA:-./models/SignRAG-Qwen3-8B-CSL-Daily-PreinNews/non_lora_trainables.bin}
 NON_LORA=${NON_LORA:-./models/non_lora_trainables.bin}
 V_INIT=${V_INIT:-./models/mytran_CSL_News_512}
 DATA_PATH=${DATA_PATH:-./data/CSL_Daily/label/rag_dep.test}
