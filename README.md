@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <b>SignRAG</b> — Unified Retrieval-Augmented, Gloss-Free Sign Language Translation<br>
+  <b>SignRAG</b> — Unified Retrieval-Augmented Gloss-Free Sign Language Translation<br>
 </p>
 
 ---
