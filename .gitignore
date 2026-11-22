@@ -12,6 +12,6 @@ outputs/
 *.safetensors
 *.pt
 *.pth
-data/
+# data/
 models/
 .DS_Store

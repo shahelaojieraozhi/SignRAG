@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SignRAG
 
 <p align="center">
@@ -130,3 +131,11 @@ Thanks to **CoSign** for the powerful sign encoder implementation:
 ## 📄 License
 
 Apache 2.0.
+=======
+## 🚧 Code Release
+
+We are currently organizing and cleaning up the codebase.  
+The source code, training scripts, and pretrained models will be released soon.
+
+**Coming soon.**
+>>>>>>> 72ae81ec5b9f78782b3965879e25293b8b22828f
